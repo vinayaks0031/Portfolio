@@ -1,0 +1,26 @@
+.skills-bar{
+    margin: 2% 27% 5% 27%;
+    padding: 3%;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.certificate{
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.certi-card{
+    padding: 1%;
+    background-color: white;
+    margin: 0% 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.certi-card > img{
+    height: 300px;
+    width: 390px;
+    
+}

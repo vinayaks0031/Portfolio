@@ -1,0 +1,73 @@
+h2>span{
+    padding: 10px 5px;
+    margin: 10px 5px 7px 0px;
+    background-color: #0050ff;
+}
+
+
+.card{
+    text-align: left;
+    display: flex;
+    background-color: #fff;
+    margin: 0% 23% 7% 23%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card-details{
+    width: 65%;
+}
+.card-details > h2{
+    margin-top: 13%;
+    font-family: 'Lato', sans-serif;
+    
+    color: #0050ff;
+}
+.card-details > p{
+    margin-left: 2%;
+}
+.card-discr{
+    width: 90%;
+    padding: 8% 0% 4% 10%;
+}
+.card > img{
+    height: 400px;
+    width: 300px;
+}
+.project-links{
+    margin: 7% 0% 15% 7%;
+}
+/* .btn{
+    text-decoration: none;
+    margin-right:2% ;
+    border: 2px solid #1e63fc;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;  
+    text-align :center;  
+    padding: 10px 20px 10px 20px;  
+    cursor: pointer;  
+} */
+/* .btn-blue{
+    background-color: #1e63fc;
+    color: white;
+}
+.btn-white{
+    background-color: #fff;
+    color: black;
+}
+.btn-white:hover{
+    background-color:#1e63fc ;
+    color: white;
+    transition: .3s ease-in;
+}
+.btn-blue:hover{
+    background-color: white;
+    color:black;
+    transition: .3s ease-in;
+} */
+.card-image{
+    width: 35%;
+}
+.project-image{
+    height: 100%;
+    width: 100%;
+}

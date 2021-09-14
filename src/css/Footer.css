@@ -1,0 +1,27 @@
+.footer{
+    padding: 3%;
+    display: flex;
+}
+.copyright{
+    margin-right: 31%;
+}
+.inside-footer{
+    text-align: center;
+    padding-right: 7%;
+}
+.bt-space{
+    margin-bottom:8px ;
+    font-weight: bold;
+}
+.inside-footer a{
+    text-decoration: none;
+    color: black;
+}
+.social-handles{
+    display: flex;
+
+}
+.social-handles img{
+    height: 20px;
+    margin-left: 20px;
+}
