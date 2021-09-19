@@ -3,71 +3,90 @@ h2>span{
     margin: 10px 5px 7px 0px;
     background-color: #0050ff;
 }
-
-
-.card{
+.emphasis{
+    font-style: italic;
+    font-size:16px;
+}
+.card-project{
     text-align: left;
     display: flex;
     background-color: #fff;
     margin: 0% 23% 7% 23%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.card-details{
+.card-project-details{
     width: 65%;
 }
-.card-details > h2{
+.card-project-details > h2{
     margin-top: 13%;
     font-family: 'Lato', sans-serif;
     
     color: #0050ff;
 }
-.card-details > p{
+.card-project-details > p{
     margin-left: 2%;
 }
-.card-discr{
+.card-project-discr{
     width: 90%;
     padding: 8% 0% 4% 10%;
 }
-.card > img{
+.card-project > img{
     height: 400px;
     width: 300px;
 }
 .project-links{
-    margin: 7% 0% 15% 7%;
+    margin: 7% 0% 10% 7%;
 }
-/* .btn{
-    text-decoration: none;
-    margin-right:2% ;
-    border: 2px solid #1e63fc;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 25px;  
-    text-align :center;  
-    padding: 10px 20px 10px 20px;  
-    cursor: pointer;  
-} */
-/* .btn-blue{
-    background-color: #1e63fc;
-    color: white;
-}
-.btn-white{
-    background-color: #fff;
-    color: black;
-}
-.btn-white:hover{
-    background-color:#1e63fc ;
-    color: white;
-    transition: .3s ease-in;
-}
-.btn-blue:hover{
-    background-color: white;
-    color:black;
-    transition: .3s ease-in;
-} */
-.card-image{
+.card-project-image{
     width: 35%;
 }
 .project-image{
     height: 100%;
     width: 100%;
+}
+@media only screen and (max-width:1100px){
+    .card-project{
+    margin: 0% 18% 7% 18%;
+    }
+    .emphasis {
+        font-size: 16px !important;
+    }   
+}
+@media only screen and (max-width:881px){
+    .card-project{
+        margin: 0% 10% 7% 10%;
+        }
+    .emphasis {
+        font-size: 15px !important;
+    }    
+}
+@media only screen and (max-width:772px){
+    .card-project{
+        margin: 0% 5% 7% 5%;
+        }
+}
+@media only screen and (max-width:600px){
+    .card-project{
+    margin: 5% 2% 15% 2%;
+    display: block;
+    padding-top: 1px;
+    }
+    .card-project-details{
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    .card-project-discr{
+        width: 94% !important;
+        font-size: 16px !important;
+        padding: 8% 1% 4% 5%;
+    }
+    .card-project-image{
+        width: 100%;
+    }
+    .project-image{
+        height: 200px;
+    }
+    .project-links{
+        margin: 7% 0% 5% 7%;
+    }
 }

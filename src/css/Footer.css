@@ -1,27 +1,14 @@
-.footer{
-    padding: 3%;
-    display: flex;
-}
-.copyright{
-    margin-right: 31%;
-}
-.inside-footer{
-    text-align: center;
-    padding-right: 7%;
-}
-.bt-space{
-    margin-bottom:8px ;
-    font-weight: bold;
-}
-.inside-footer a{
-    text-decoration: none;
-    color: black;
-}
-.social-handles{
-    display: flex;
+@media only screen and (max-width:517px) {
+    .small-device{
+        text-align: left !important;
+        margin-top:22px !important;
+        margin-left: 15px !important;
+    }
+    .small-device-space{
+        margin-top:22px !important;
 
-}
-.social-handles img{
-    height: 20px;
-    margin-left: 20px;
+    }
+    .small-device-space > div > p {
+        font-size: 16px !important;
+    }
 }

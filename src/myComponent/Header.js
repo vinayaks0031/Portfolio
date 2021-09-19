@@ -5,16 +5,32 @@ import { Link } from 'react-router-dom';
 export default function Header() {
     return (
         <>
-            <div className="navBar">
-                <span />
-                <p> <span>Vinayak Sharma</span>  / software developer</p>
-                <div className="options">
-                    <Link to="/">ABOUT ME </Link>
-                    <Link to="/Skills">SKILLS </Link>
-                    <Link to="/Project">PROJECTS </Link>
-                    <Link to="/Contact">CONTACT </Link>
+            <nav className="navbar navbar-expand-lg navbar-light py-4">
+                <div className="container-fluid">
+                    <Link className="navbar-brand " to="/"><p> <span className="my-name"><span className="names-block" />Vinayak Sharma</span> <i>/</i> Software Developer</p></Link>
+                    <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="toggler-icon top-bar"></span>
+                        <span className="toggler-icon middle-bar"></span>
+                        <span className="toggler-icon bottom-bar"></span>
+                    </button>
+                    <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link my-nav-link active" to="/">ABOUT ME</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link my-nav-link active" to="/Skills">SKILLS</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link my-nav-link active" to="/Project">PROJECTS</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link my-nav-link active" to="/Contact">CONTACT</Link>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </>
     )
 }

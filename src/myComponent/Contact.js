@@ -16,11 +16,11 @@ export default function Contact() {
                                 <input type="text" name="lastName" required placeholder="Last Name" className="input-box" />
                             </div>
                             <label htmlFor="firstName">Email <span>*</span></label>
-                            <input type="email" name="email" required placeholder="I'll never share your email with anyone else" className="input-box" />
+                            <input type="email" name="email" required placeholder="I'll never share your email with anyone else" className="input-box short-section" />
                             <label htmlFor="firstName">Message <span>*</span></label>
-                            <textarea type="text" name="anotherInput" required className="input-box" />
+                            <textarea type="text" name="anotherInput" required className="input-box short-section" />
                             <input type="hidden" name="_gotcha" />
-                            <input type="submit" value="Submit" className="contact-btn" />
+                            <input type="submit" value="Submit" className="btn btn-blue" />
                         </form>
                     </div>
                 </div>

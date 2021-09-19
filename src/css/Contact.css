@@ -40,21 +40,23 @@ label > span{
 .names{
     display: flex;
 }
-input[type="submit"]{
-    text-decoration: none;
-    margin:5% 0%;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 25px;  
-    text-align :center;  
-    padding: 13px 23px 13px 23px;
-    background-color: #0050ff;  
-    color: white;
-    cursor: pointer;  
+@media only screen and (max-width:1400px) {
+    .contact-form{
+        margin: 5% 18% 5% 18%;
+    }
 }
-
-input[type="submit"]:hover{
-    background: white;
-    color: #0050ff;
-    transition: 0.6s ease;
+@media only screen and (max-width:980px) {
+    .contact-form{
+        margin: 5% 12% 5% 12%;
+    }
+    .input-box{
+        width:100%;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width:590px){
+    .contact-form{
+        margin: 20% 1% ;
+        padding: 5%;
+    }
 }
