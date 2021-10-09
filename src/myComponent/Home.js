@@ -37,10 +37,10 @@ export default function Home() {
                                 <Link to="/Project" className="btn btn-blue">PROJECTS</Link>
                                 <a href={CV} download className="btn btn-white"><img src={download} alt="" /> RESUME</a>
                             </div>
-                            <p className="last-para">I'm a 20 year old software developer and a competitive programmer staying in Indore Madhya Pradesh ,India. I am pursuing integrated MCA and  currently in 4th year of this five year degree. </p>
-                            <p className="last-para">My interests include solving some real life problem via web & mobile apps and solving programming problems.
-                                Connect with me on <a href="https://www.linkedin.com/in/vinayak-sharma-b94161190" target="_blank" rel="noreferrer">LinkedIn</a> and have a look on my <a href="https://github.com/vinayaks0031" target="_blank" rel="noreferrer">Github</a> profile .<br /><br />
-                                I am always open and excited to learn and work with like minded people and want to be a successful developer.</p>
+                            <p className="last-para">I'm a 20-year-old software developer and a competitive programmer staying at Indore Madhya Pradesh, India. I am pursuing an integrated MCA and currently in the 4th year of this five-year degree program. </p>
+                            <p className="last-para">My interests include solving some real-life problem via web & mobile apps and solving programming problems.
+                                Connect with me on <a href="https://www.linkedin.com/in/vinayak-sharma-b94161190" target="_blank" rel="noreferrer">LinkedIn</a> and have a look at my <a href="https://github.com/vinayaks0031" target="_blank" rel="noreferrer">Github</a> profile .<br /><br />
+                                I am always open and excited to learn and work with like-minded people and want to be a successful developer.</p>
                         </div>
                     </div>
                 </div>
