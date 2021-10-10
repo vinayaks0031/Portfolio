@@ -8,6 +8,14 @@ const data = [
         tech: "JavaScript HTML CSS"
     },
     {
+        name: "Super Hero Mania",
+        github: "https://github.com/vinayaks0031/SuperHero-Mania",
+        live: "https://superheromania.netlify.app/",
+        image: "images/HeroMania.png",
+        discription: "A web app that fetches data from Marvel API and provides you all the data about your favorite superhero (their all versions) and also helps to search marvel comics.",
+        tech: "Reactjs"
+    },
+    {
         name: "News Flash",
         github: "https://github.com/vinayaks0031/NewsFlash",
         live: "https://vm-newsflash.netlify.app/",
