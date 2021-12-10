@@ -8,7 +8,7 @@ export default function ProjectCard({ pData }) {
             <div className="card-container">
                 {
                     pData.map((element, index) => {
-                        const { name, github, live, tech, image, discription } = element;
+                        const { name, github, live, tech, image, discription, mode } = element;
                         return (
                             <>
                                 <div className="card-project" key={index}>
@@ -18,7 +18,7 @@ export default function ProjectCard({ pData }) {
                                         <p className="card-project-discr">{discription}</p>
                                         <div className="project-links">
                                             <a href={github} className="btn btn-blue" target="_blank" rel="noopener noreferrer">Github</a>
-                                            <a href={live} className="btn btn-white" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                                            <a href={live} className="btn btn-white" target="_blank" rel="noopener noreferrer">{mode}</a>
                                         </div>
                                     </div>
                                     <div className="card-project-image">
