@@ -1,12 +1,13 @@
 const data = [
-    // {
-    //     name:"Cp-Calendar",
-    //     github:"https://github.com/vinayaks0031/CpCalendar-Ext",
-    //     live:"https://microsoftedge.microsoft.com/addons/detail/meanify/dljdcindnbidjlkapliihhdigmgbbomo",
-    //     image:"images/meanify.png",
-    //     discription:"Meanify is a Browser Extension that helps you to get meanings of unfamiliar words very easily and it also stores them all so you can remember and see them later also.",
-    //     tech:"Javascript"
-    // },
+    {
+        name:"Cp-Calendar",
+        github:"https://github.com/vinayaks0031/CpCalendar-Ext",
+        live:"https://microsoftedge.microsoft.com/addons/detail/cpcalendar/iffkianaapnlkhljpldhhphoeljkljjb",
+        image:"images/cp.png",
+        discription:"A Browser Extension for all the upcoming contests on different competitive programming platforms like Codeforces, Codechef, Leetcode, etc.",
+        tech:"Javascript",
+        mode:"Download"
+    },
     {
         name:"Meanify",
         github:"https://github.com/vinayaks0031/Meanify",
