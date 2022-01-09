@@ -6,40 +6,6 @@ import NPTEL from '../img/NPTEL.jpg';
 import JAVA from '../img/JAVA.png';
 
 export default function Resume() {
-
-    // const SKILLS = [
-    //     {
-    //         "type": "C++",
-    //         "level": 70
-    //     },
-    //     {
-    //         "type": "React",
-    //         "level": 65
-    //     },
-    //     {
-    //         "type": "Javascript",
-    //         "level": 70
-    //     },
-    //     {
-    //         "type": "Java",
-    //         "level": 55
-    //     },
-    //     {
-    //         "type": "HTML",
-    //         "level": 80
-    //     },
-    //     {
-    //         "type": "CSS",
-    //         "level": 70
-    //     },
-    // ]
-    // const colors = {
-    //     "bar": "#1e63fc",
-    //     "title": {
-    //         "text": "#fff",
-    //         "background": "#0d1daa"
-    //     }
-    // }
     const style = {
         img: {
             height: "100%",
