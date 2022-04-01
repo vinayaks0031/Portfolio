@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/Home.css';
-import profile from "../img/Profile.jpg";
+// import profile from "../img/Profile.jpg";
+import profile2 from "../img/Profile2.jpeg";
 import linkedin from "../img/linkedin.png";
 import github from "../img/github.png";
 import twitter from "../img/twitter.png";
@@ -16,7 +17,7 @@ export default function Home() {
                 <div className="row justify-content-center">
                     <div className="col-xl-3 col-lg-4 col-md-5">
                         <div className="my-info ">
-                            <img src={profile} alt="" />
+                            <img src={profile2} alt="" />
                             <h1>Vinayak <br /> Sharma</h1>
                             <hr className="hr" />
                             <p>SOFTWARE DEVELOPER</p>
