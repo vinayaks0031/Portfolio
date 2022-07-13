@@ -1,7 +1,7 @@
 # Portfolio
 
 This is my Portfolio made using React⚡
-You can view it's live [here](https://vinayaksharma.netlify.app/)
+You can view it's live [here](https://vinayaksharma.vercel.app/)
 
 ## Installation
 
