@@ -16,7 +16,7 @@ export default function Home() {
                 <div className="row justify-content-center">
                     <div className="col-xl-3 col-lg-4 col-md-5">
                         <div className="my-info ">
-                            <img src={profile2} alt="" />
+                            <img src={profile} alt="" />
                             <h1>Vinayak <br /> Sharma</h1>
                             <hr className="hr" />
                             <p>SOFTWARE DEVELOPER</p>
